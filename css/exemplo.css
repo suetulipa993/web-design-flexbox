@@ -1,0 +1,45 @@
+* { 
+    /* ordens que eu posso seguir
+        displays
+        dimensionamento
+        fontes
+        cores
+        bordas
+    */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* flex*/
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    background-color: black; 
+}
+
+header img {
+    height: 80px;
+    margin-top: 5px;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    padding: 35px 15px 20px 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+header nav a:hover {
+    /*pseudo- classe = a: hover significa passar a cursor (mouse) em cima*/
+    background-color: #fe3500;
+    /*border-radius = arredondar as bordas*/
+    border-radius: 0 0 20px 20px;
+
+}
